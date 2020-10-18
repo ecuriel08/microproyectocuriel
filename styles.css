@@ -1,5 +1,6 @@
 * {
 	scroll-behavior: smooth;
+	padding: 0;
 }
 
 #divhead{
@@ -8,7 +9,7 @@
 	background-color: #758AA8;
 	padding: 10px;
 }
-h1,h2,h3,h4 {
+h1,h2,h3 {
 	text-align: center;
 }
 
@@ -38,7 +39,7 @@ h3{
 	border: 2px solid white;
 	top: 5px;
 }
-#divexp, #divacerca{
+#divexp, #divacerca,#divhabilidades{
 	border: 2px solid black;
 	
 }
@@ -50,7 +51,7 @@ body {
 }
 
 ul li,li p {
-	/*list-style: none;*/
+	text-align: center;
 	line-height: 30px;
 	font-size: 15px;
 }
@@ -62,4 +63,47 @@ p{
 
 #fotoperfil {
 	text-align: center;
+}
+
+
+.habilidades{
+	width: 500px;
+	margin: 60px auto;
+	color: white;
+}
+
+.habilidades li{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+h4{
+	margin-right: 10px;
+	margin-left: 10px;
+
+}
+.barra{
+	background: #353b48;
+	display: block;
+	height: 10px;
+	border: 1px solid;
+	border-radius: 3px;
+	overflow: hidden;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.barra span{
+	height: 10px;
+	float:  left;
+	background: yellow;
+}
+
+.html{
+	width: 70%;
+}
+.css{
+	width: 50%;
+}
+.python{
+	width: 85%;
 }
