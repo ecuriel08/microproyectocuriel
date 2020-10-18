@@ -41,15 +41,24 @@ h3{
 }
 #divexp, #divacerca,#divhabilidades,#divcontacto{
 	border: 2px solid black;
+	background-color:white;
 	
+}
+#divexp p{
+	border: 2px solid black;
+	align-content: center;
+	margin: auto;
+	width: 650px;
 }
 body {
 	font-family: Verdana;
-	background-color:white;
+	background-color:lightgray;
 	color: #444;
 	
 }
-
+p{
+	text-align: justify;
+}
 ul li,li p {
 	text-align: center;
 	line-height: 30px;
@@ -99,13 +108,19 @@ h4{
 }
 
 .html{
-	width: 70%;
+	width: 60%;
 }
 .css{
-	width: 50%;
+	width: 40%;
 }
 .python{
 	width: 85%;
+}
+.pana{
+	width: 100%;
+}
+.js{
+	width: 50%;
 }
 
 .form {
@@ -171,6 +186,8 @@ h4{
   }
 
 #links {
+	margin-right: 10px;
+	margin-left: 10px;
 	text-align: center;
 }
 
