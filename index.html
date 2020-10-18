@@ -69,7 +69,7 @@
     <p id="fotoperfil">
         <img src="img/profile.png" width="180" height="180" title="Foto de Perfil" alt="Foto mia">
     </p>
-    <p>Hola, mi nombre es Eduardo Curiel actualmente estudio en la universidad metropolinata en Caracas,Venezuela.
+    <p>Hola, mi nombre es Eduardo Curiel actualmente estudio Ingenieria de sistemas en la universidad metropolinata en Caracas,Venezuela.
        <p>Hoy en dia quiero aprender lo mas que pueda sobre las diferentes areas de la programacion y todo lo relacionado a esta,
        en un futuro desearia trabajar en el area relacionada a servidores ya que me llama mucho la atencion, otro de mis sueños 
        seria trabajar en una compañia desarollando videojuegos o cosas parecidas.
@@ -96,6 +96,41 @@
     <br><br>
 </div>
 
+<br><br><br>
+
+<div id="divcontacto">
+    <h3 id="contacto">Contacto</h3>
+    <script>
+        function alerta1(){
+            alert("Su Solicitud ha sido enviada.")
+        }
+        function alerta2(){
+            alert("Datos erroneos(email invalido, caracteres especiales, campos vacios).")
+        }
+    </script>
+    <section class="form">
+        <h4>Contactame</h4>
+        <input class="controls" type="text" name="nombres" id="nombres"  placeholder="Ingrese su Nombre y apellido" required>
+        <input class="controls" type="email" name="correo" id="correo"  placeholder="Ingrese su Correo" required>
+        <textarea class="controls" type="mensaje" name="mensaje" id="mensaje" placeholder="Ingrese su mensaje" required></textarea>
+        <input class="botons" type="submit" onclick="alerta1()" value="Enviar">
+      </section>
+
+    <p id="links">
+        <a href="https://facebook.com" target="_blank">
+            <img src="img/fb.png" width="50px" height="50px" alt="Perfil">
+        </a> 
+        
+        <a href="https://web.whatsapp.com" target="_blank">
+            <img src="img/whatsapp.png" width="50px" height="50px">
+        </a> 
+    
+        <a href="https://twitter.com" target="_blank">
+            <img src="img/tw.png" width="50px" height="50px">
+        </a> 
+    </p>
+    <br><br><br>
+</div>
 
 </body>
 </html>
