@@ -1,14 +1,23 @@
 * {
 	scroll-behavior: smooth;
 }
-#perfil {text-align: center;}
 
-#nombre{
-	color: black;
+#divhead{
+	color:white;
 	text-align: center;
+	background-color: #758AA8;
+	padding: 10px;
 }
 h1,h2,h3,h4 {
 	text-align: center;
+}
+
+h3{
+	padding: 10px;
+	background: #051A38;
+	width: 40%;
+	margin: 50px auto;
+	color: white;
 }
 #navbar {text-align: center;}
 
@@ -18,6 +27,7 @@ h1,h2,h3,h4 {
 	font-size: 14px;
 	border-radius: 0 10px;
 	text-decoration: none;
+	
 }
 #divnavbar {
 	background:#2C4870;
@@ -25,10 +35,13 @@ h1,h2,h3,h4 {
 }
 #navbar a:hover {
 	color: #4C678C;
-	border: 2px solid #4C678C;
+	border: 2px solid white;
 	top: 5px;
 }
-
+#divexp{
+	border: 2px solid black;
+	
+}
 body {
 	font-family: Verdana;
 	background-color:white;
@@ -36,3 +49,8 @@ body {
 	
 }
 
+ul li,li p {
+	/*list-style: none;*/
+	line-height: 30px;
+	font-size: 15px;
+}
