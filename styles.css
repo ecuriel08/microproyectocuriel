@@ -1,0 +1,38 @@
+* {
+	scroll-behavior: smooth;
+}
+#perfil {text-align: center;}
+
+#nombre{
+	color: black;
+	text-align: center;
+}
+h1,h2,h3,h4 {
+	text-align: center;
+}
+#navbar {text-align: center;}
+
+#navbar a {
+	padding: 15px 20px;
+	color: white;
+	font-size: 14px;
+	border-radius: 0 10px;
+	text-decoration: none;
+}
+#divnavbar {
+	background:#2C4870;
+	padding: 5px;
+}
+#navbar a:hover {
+	color: #4C678C;
+	border: 2px solid #4C678C;
+	top: 5px;
+}
+
+body {
+	font-family: Verdana;
+	background-color:white;
+	color: #444;
+	
+}
+
