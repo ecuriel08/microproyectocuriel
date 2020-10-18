@@ -38,7 +38,7 @@ h3{
 	border: 2px solid white;
 	top: 5px;
 }
-#divexp{
+#divexp, #divacerca{
 	border: 2px solid black;
 	
 }
@@ -53,4 +53,13 @@ ul li,li p {
 	/*list-style: none;*/
 	line-height: 30px;
 	font-size: 15px;
+}
+
+p{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#fotoperfil {
+	text-align: center;
 }
